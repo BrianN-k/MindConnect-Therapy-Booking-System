@@ -1,0 +1,16 @@
+# MindConnect — Python dependencies
+#
+# Tkinter and sqlite3 ship with the Python standard library, so no
+# extra install is needed for the default (SQLite) configuration.
+#
+# On some Linux distributions Tkinter is packaged separately:
+#   Ubuntu/Debian : sudo apt install python3-tk
+#   Fedora        : sudo dnf install python3-tkinter
+#   Arch          : sudo pacman -S tk
+#
+matplotlib>=3.7
+
+# ── Optional: PostgreSQL production backend ─────────────────────
+# Uncomment the line below if you switch db/database.py from
+# sqlite3 to psycopg2 for a PostgreSQL deployment.
+# psycopg2-binary>=2.9
